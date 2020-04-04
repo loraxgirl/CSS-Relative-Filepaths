@@ -1,0 +1,136 @@
+Skip to content
+More
+Search or jump to…
+
+U
+UCLA-Coding-Boot-Camp
+UCLA-VIRT-FSF-PT-03-2020-U-LOL
+Repository
+master
+ucla-virt-fsf-pt-03-2020-u-lol
+ ..
+ style
+ style.css
+Christopher David Murphy's avatar
+Adding first activity, and demo files: 'Relative Paths'
+Christopher David Murphy authored 6 hours ago
+74c86e17
+ style.css 910 Bytes
+ 
+ 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+header {
+  background: #d21034;
+}
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background: #333;
+}
+h2 {
+  font-size: 24px;
+}
+a {
+  color: #d21034;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+#main-bio {
+  width: 70%;
+}
+#contact-info {
+  width: 30%;
+}
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
